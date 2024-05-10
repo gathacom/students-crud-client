@@ -5,5 +5,5 @@ steps:
     args: ['install']
   - name: 'gcr.io/cloud-builders/npm'
     args: ['run', 'build']
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'services', 'set-traffic', '--splits', 'merncrud=>100']
+  # - name: 'gcr.io/cloud-builders/gcloud'
+  #   args: ['app', 'services', 'set-traffic', '--splits', 'merncrud=>100']
